@@ -1,0 +1,77 @@
+/* NPS Color Palette
+#050907 Dark Green
+#2D3517 Medium Dark Green
+#47643D Medium Light Green
+#668D67 Light Green
+#934E19 Dark Tan
+#C5A667 Tan
+*/
+
+h1, h2, h3, h4, h5, h6, p, aside, li, form, label {
+	font-family: sans-serif;
+}
+h1{
+	font-size: 2em;
+	color: #47643D;
+	border-bottom: 3px solid #934E19;
+}
+h2, legend {
+	font-size: 1.5em;
+	color: #47643D;
+	border-bottom: 2px solid #934E19;
+}
+h3 {
+	font-size: 1.17em;
+	color: #47643D;
+	border-bottom: 1px solid #934E19;
+}
+p, li {
+	font-size: 1em;
+	width: 90%;
+	margin: 0% 5% 0% 5%;
+}
+li {
+	font-style: italic;
+}
+.rightdiv {
+	display: inline-block;
+	width: 50%;
+	float:right;
+	margin-left: 10px;
+	margin-bottom: 10px;
+}
+aside {
+	display: block;
+	font-style: italic;
+	color: #934E19;
+	background: #C5A667;
+	font-size: 1.5em;
+	padding-top: 15px;
+	padding-bottom: 15px;
+	padding-left: 15px;
+}
+.rightalign{
+	font-size: 1em;
+	font-style: inherit;
+	text-align: right;
+	padding-right: 15px;
+	padding-top: 0px;
+	padding-bottom: 0px;
+}
+a:link, input:link {
+  	color: #668D67;
+}
+a:visited, input:visited {
+  	color: #050907;
+}
+a:hover, input:hover {
+ 	color: #C5A667;
+}
+a:active, input:active {
+  	color: #C5A667;
+}
+.image {
+	margin: auto;
+ 	width: 90%;
+	padding: 0% 5% 0% 5%;
+  }
