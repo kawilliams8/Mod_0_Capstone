@@ -25,7 +25,7 @@ h3 {
 	color: #47643D;
 	border-bottom: 1px solid #934E19;
 }
-p, li {
+p, li, form {
 	font-size: 1em;
 	width: 90%;
 	margin: 0% 5% 0% 5%;
@@ -49,6 +49,7 @@ aside {
 	padding-top: 15px;
 	padding-bottom: 15px;
 	padding-left: 15px;
+	margin-right: 10%;
 }
 .rightalign{
 	font-size: 1em;
@@ -73,5 +74,5 @@ a:active, input:active {
 .image {
 	margin: auto;
  	width: 90%;
-	padding: 0% 5% 0% 5%;
+	padding: 10px 5% 5px 5%;
   }
